@@ -1,0 +1,11 @@
+error: empty `loop {}` is currently miscompiled and wastes CPU cycles
+  --> $DIR/empty_loop_no_std.rs:23:5
+   |
+LL |     loop {}
+   |     ^^^^^^^
+   |
+   = note: `-D clippy::empty-loop` implied by `-D warnings`
+   = help: You should either use `panic!()` or add some call to sleep or pause the thread to the loop body.
+
+error: aborting due to previous error
+

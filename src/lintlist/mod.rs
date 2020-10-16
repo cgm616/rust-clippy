@@ -482,7 +482,7 @@ vec![
     },
     Lint {
         name: "empty_loop",
-        group: "style",
+        group: "correctness",
         desc: "empty `loop {}`, which should block or sleep",
         deprecation: None,
         module: "loops",
